@@ -17,7 +17,7 @@ The following table lists all the GUIDs used. The reserved range for this mod is
 These GUIDs are used for non-banner assets (menu items, icons etc.)
 
 |GUID|Asset name|
-|---|---|---|---|
+|---|---|
 |1500032200|Rantian Imperium Ornaments Container|
 |1500032201|Rantian Imperium Icon|
 |1500032202|Rantian Imperium Ornaments Category Standard|
@@ -28,7 +28,7 @@ These GUIDs are used for non-banner assets (menu items, icons etc.)
 Starting at **1500032220**, to allow for expansion of the menu items without mixing GUIDs.
 
 |GUID|Type|Set name|Banner name|Variations|
-|---|---|---|---|
+|---|---|---|---|---|
 |1500032220|Banner Large|Rantian Imperium Banners|Rantian Logo Banner|1|
 |1500032222|Banner Large|Rantian Imperium Banners|Eugene|1|
 |1500032224|Banner Large|Rantian Imperium Banners|Christmas Banner|1|
