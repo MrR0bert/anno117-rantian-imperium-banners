@@ -1,0 +1,101 @@
+<ModOps>
+	<!-- Main Menu Setup Group -->
+	<Group>
+		<!-- Main construction container -->
+		<ModOp Type="addNextSibling" GUID='14194'>
+			<Asset>
+				<Template>ConstructionCategory</Template>
+				<Values>
+					<Standard>
+						<GUID>1500032200</GUID>
+						<Name>Rantian Imperium Ornaments Container</Name>
+					</Standard>
+					<ConstructionCategory>
+						<CategoryIcon>1500032201</CategoryIcon>
+						<BuildingList>
+							<Item>
+								<Building>1500032202</Building>
+							</Item>
+							<Item>
+								<Building>1500032203</Building>
+							</Item>
+						</BuildingList>
+					</ConstructionCategory>
+					<Text>
+						<OasisId>1500032200</OasisId>
+					</Text>
+					<Locked/>
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<!-- Add Main construction container to the menu -->
+		<ModOp Type="addNextSibling" GUID="14194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='80961']">
+			<Item>
+				<Building>1500032200</Building>
+			</Item>
+		</ModOp>
+
+		<!-- Icon resource used for the construction container -->
+		<ModOp Type="addNextSibling" GUID="80939">
+			<Asset>
+				<Template>Icon</Template>
+				<Values>
+					<Standard>
+						<GUID>1500032201</GUID>
+						<Name>Rantian Imperium Icon</Name>
+						<IconFilename>data/mrr0b3rt/ui/icon_content/icon_rantian_imperium_symbol_standard.dds</IconFilename>
+					</Standard>
+				</Values>
+			</Asset>
+		</ModOp>
+	</Group>
+
+	<!-- Banner Categories -->
+	<Group>
+		<!-- Container: Rantian Imperium Ornaments Standard -->
+		<ModOp Type="addNextSibling" GUID="80582">
+			<Asset>
+				<Template>ConstructionCategory</Template>
+				<Values>
+					<Standard>
+						<GUID>1500032202</GUID>
+						<Name>Rantian-Imperium-Ornaments-Category-Standard</Name>
+						<IconFilename>data/mrr0b3rt/ui/icon_collection_rantian_banners_standard.dds</IconFilename>
+					</Standard>
+					<ConstructionCategory>
+						<BuildingList />
+						<CategoryIcon>1500032201</CategoryIcon>
+					</ConstructionCategory>
+					<Text>
+						<OasisId>1500032202</OasisId>
+					</Text>
+					<Locked/>
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<!-- Container: Clan na Ceo Gaire -->
+		<ModOp Type="addNextSibling" GUID="80582">
+			<Asset>
+				<Template>ConstructionCategory</Template>
+				<Values>
+					<Standard>
+						<GUID>1500032203</GUID>
+						<Name>Clan-Na-Ceo-Gaire-Category</Name>
+						<IconFilename>data/mrr0b3rt/ui/icon_collection_clan_na_ceo_gaire.dds</IconFilename>
+					</Standard>
+					<ConstructionCategory>
+						<BuildingList />
+						<CategoryIcon>1500032201</CategoryIcon>
+					</ConstructionCategory>
+					<Text>
+						<OasisId>1500032203</OasisId>
+					</Text>
+					<Locked/>
+				</Values>
+			</Asset>
+		</ModOp>
+
+	</Group>
+</ModOps>

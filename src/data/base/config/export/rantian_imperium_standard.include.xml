@@ -1,0 +1,189 @@
+<ModOps>
+    <!-- Menu item actions -->
+    <Group>
+        <ModOp Type="merge" GUID="1500032202" Path="/Values/ConstructionCategory/BuildingList">
+                <Item>
+                    <!-- Logo Banner -->
+                    <Building>1500032220</Building>
+                </Item>
+                <Item>
+                    <!-- Eugene Banner -->
+                    <Building>1500032222</Building>
+                </Item>
+                <Item>
+                    <!-- Christmas Banner -->
+                    <Building>1500032224</Building>
+                </Item>
+                <Item>
+                    <!-- Legion Banners -->
+                    <Building>1500032226</Building>
+                </Item>
+        </ModOp>
+    </Group>
+
+    <!-- Standard Large Banners -->
+    <Group>
+        <!-- Logo Banner, base asset -->
+        <ModOp Type="addNextSibling" GUID="110126">
+            <Asset>
+                <Template>OrnamentalBuilding</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1500032220</GUID>
+                        <Name>Rantian Standard Logo Banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icon_content/icon_banner_rantian_logo_banner_standard_0.dds</IconFilename>
+                        <InfoDescription>1500032221</InfoDescription>
+                    </Standard>
+                    <Text>
+                        <OasisId>1500032220</OasisId>
+                    </Text>
+                    <Ornament>
+                        <OrnamentUnit>1</OrnamentUnit>
+                        <OrnamentDescription>1500032221</OrnamentDescription>
+                    </Ornament>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/rantian_imperium_banners/rantian_imperium_logo_banner_01.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <!-- Unchaged stuff -->
+                    <Building>
+                        <BuildingCategoryName>-6902785729760125442</BuildingCategoryName>
+                        <VariationControl>ByPlayer</VariationControl>
+                    </Building>
+                    <Cost>
+                        <Costs>
+                            <!-- Denarii -->
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>0</InheritedIndex>
+                                </VectorElement>
+                                <Amount>100</Amount>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <Selection>
+                        <OnSelection>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                            <ActionList/>
+                            </Values>
+                        </OnSelection>
+                        <InfoCorner>125786</InfoCorner>
+                    </Selection>
+                    <Constructable/>
+                    <Mesh/>
+                    <SoundEmitter>
+                        <OBJ_Active>
+                            <Item>
+                                <Sound>98919</Sound>
+                            </Item>
+                        </OBJ_Active>
+                    </SoundEmitter>
+                    <Locked>
+                        <DefaultLockedState>0</DefaultLockedState>
+                    </Locked>
+                    <Threatable/>
+                    <Blocking/>
+                    <FeedbackController/>
+                    <AmbientMoodProvider/>
+                    <Pausable/>
+                    <Infolayer/>
+                    <Culture/>
+                </Values>
+            </Asset>
+        </ModOp>
+        
+        <!-- Eugene Banner -->
+        <ModOp Type="addNextSibling" GUID="1500032220">
+            <Asset>
+                <BaseAssetGUID>1500032220</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500032222</GUID>
+                        <Name>Eugene banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icon_content/icon_banner_eugene_0.dds</IconFilename>
+                        <InfoDescription>1500032223</InfoDescription>
+                    </Standard>
+                    <Text>
+                        <OasisId>1500032222</OasisId>
+                    </Text>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/rantian_imperium_banners/eugene_banner_01.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500032223</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+        
+        <!-- Christmas Banner -->
+        <ModOp Type="addNextSibling" GUID="1500032220">
+            <Asset>
+                <BaseAssetGUID>1500032220</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500032224</GUID>
+                        <Name>Rantain Christmas banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icon_content/icon_banner_rantian_christmas_0.dds</IconFilename>
+                        <InfoDescription>1500032225</InfoDescription>
+                    </Standard>
+                    <Text>
+                        <OasisId>1500032224</OasisId>
+                    </Text>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/rantian_imperium_banners/rantian_christmas_banner_01.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500032225</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- Legion Banners -->
+        <ModOp Type="addNextSibling" GUID="1500032220">
+            <Asset>
+                <BaseAssetGUID>1500032220</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500032226</GUID>
+                        <Name>Rantain Legion banners</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icon_content/icon_banner_rantian_standard_legion_1_0.dds</IconFilename>
+                        <InfoDescription>1500032227</InfoDescription>
+                    </Standard>
+                    <Text>
+                        <OasisId>1500032226</OasisId>
+                    </Text>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/rantian_imperium_banners/rantian_imperium_legion_banner_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/rantian_imperium_banners/rantian_imperium_legion_banner_02.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/rantian_imperium_banners/rantian_imperium_legion_banner_03.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500032227</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+    </Group>
+</ModOps>

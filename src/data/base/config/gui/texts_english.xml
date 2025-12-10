@@ -1,0 +1,60 @@
+<ModOps>
+  <ModOp Add="/TextExport/Texts[1]">
+    <Text>
+      <LineId>1500032200</LineId>
+      <Text>Rantian Imperium Ornaments</Text>
+      </Text>
+    <Text>
+      <LineId>1500032201</LineId>
+      <Text>Rantian Imperium Banners</Text>
+    </Text>
+    <Text>
+      <LineId>1500032202</LineId>
+      <Text>Rantian Imperium Standard Banners</Text>
+    </Text>
+    <Text>
+      <LineId>1500032203</LineId>
+      <Text>Clan Na Ceo Gaire Banners</Text>
+    </Text>
+    <Text>
+      <LineId>1500032220</LineId>
+      <Text>Rantian Imperium Original Banner</Text>
+    </Text>
+    <Text>
+      <LineId>1500032221</LineId>
+      <Text>The original Rantian Imperium Banner in red and gold!</Text>
+    </Text>
+    <Text>
+      <LineId>1500032222</LineId>
+      <Text>Eugene Banner</Text>
+    </Text>
+    <Text>
+      <LineId>1500032223</LineId>
+      <Text>Eugene, the patron of the Rantian Imperium. Rescued from the hands of Alonzo and Margaret Hunt now the sacred chicken of the imperium.</Text>
+    </Text>
+    <Text>
+      <LineId>1500032224</LineId>
+      <Text>Rantian Christmas Banner</Text>
+    </Text>
+    <Text>
+      <LineId>1500032225</LineId>
+      <Text>Ho Ho Ho! Celebrate Christmas with the Rantian Imperium!</Text>
+    </Text>
+    <Text>
+      <LineId>1500032226</LineId>
+      <Text>Rantian Standard Legion Banners</Text>
+    </Text>
+    <Text>
+      <LineId>1500032227</LineId>
+      <Text>A collection of three Rantian Legion banners.</Text>
+    </Text>
+    <Text>
+      <LineId>1500032228</LineId>
+      <Text>Clan na Ceo Gaire</Text>
+    </Text>
+    <Text>
+      <LineId>1500032229</LineId>
+      <Text>Clan na Ceo Gaire's official banner.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

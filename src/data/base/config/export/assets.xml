@@ -1,0 +1,10 @@
+<ModOps>
+  <!-- Include the Menu Items -->
+  <Include File="menuitems.include.xml" />
+
+  <!-- Include the Rantian Imperium Standard banners -->
+  <Include File="rantian_imperium_standard.include.xml" />
+
+  <!-- Include the Clan Na Ceo Gair banners -->
+  <Include File="clan_na_ceo_gaire.include.xml" />
+</ModOps>
