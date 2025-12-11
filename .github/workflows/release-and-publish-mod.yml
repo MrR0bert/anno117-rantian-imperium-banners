@@ -33,8 +33,8 @@ jobs:
         id: changelog
         run: |
           VERSION=v1.0.0
-          awk "/^## $VERSION/{flag=1;next}/^## /{flag=0}flag" CHANGELOG.md > tmp_changelog.txt
-          cat tmp_changelog.txt
+          awk "/^## v$VERSION/{flag=1;next}/^## /{flag=0}flag" CHANGELOG.md > tmp_changelog.txt
+          echo << tmp_changelog.txt
 
       - name: Create release
         if: 1 == 2
