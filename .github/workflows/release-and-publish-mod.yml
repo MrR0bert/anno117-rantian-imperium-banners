@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdir dist
           mkdir dist/$MOD_NAME
-          cp -a "${{ github.workspace }}/src/" "dis/$MOD_NAME/"
+          cp -a "${{ github.workspace }}/src/" "dist/$MOD_NAME/"
           zip -r dist/mod.zip dist/$MOD_NAME
       
       - name: Create release
