@@ -37,6 +37,8 @@ jobs:
             dist/mod.zip \
             --title "Release ${{ github.ref_name }}" \
             --notes "Automated release for ${{ github.ref_name }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Upload to mod.io
         run: |
