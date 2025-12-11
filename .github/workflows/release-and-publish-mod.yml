@@ -30,7 +30,7 @@ jobs:
       - name: Create release
         run: |
           gh release create "${{ github.ref_name }}" \
-            dist/${{ env.MOD_NAME }}.zip \
+            "dist/${{ env.MOD_NAME }}_${{ github.ref_name }}.zip" \
             --title "${{ github.ref_name }}" \
             --latest \
             --notes "No Notes"
