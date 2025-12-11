@@ -32,8 +32,8 @@ jobs:
       - name: Extract changelog for this version
         id: changelog
         run: |
-          VERSION=v1.0.0
-          awk "/^## v$VERSION/{flag=1;next}/^## /{flag=0}flag" CHANGELOG.md > tmp_changelog.txt
+          VERSION=1.0.0
+          awk "/^## $VERSION/{flag=1;next}/^## /{flag=0}flag" CHANGELOG.md > tmp_changelog.txt
           cat tmp_changelog.txt
 
       - name: Create release
