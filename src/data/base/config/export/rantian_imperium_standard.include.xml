@@ -177,6 +177,9 @@
                             <Item>
                                 <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/rantian_imperium_banners/rantian_imperium_legion_banner_03.cfg</Filename>
                             </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/rantian_imperium_banners/rantian_imperium_legion_banner_17.cfg</Filename>
+                            </Item>
                         </Variations>
                     </Object>
                     <Ornament>
