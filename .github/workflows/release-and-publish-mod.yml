@@ -1,18 +1,23 @@
 name: Build and publish Anno mod
 
 on:
-    push:
-        tags:
-          - 'v*'
+  workflow_dispatch:
+    inputs:  
+      tags:
+        description: 'Test scenario tags'
+        required: false
+        type: boolean
+  push:
+    tags:
+      - 'v*'
 
 jobs:
-    release:
-        runs-on: ubuntu-latest
+  release:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v4
-            
-            - name: Build mod
-              run: |
-                echo "Hello World"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4  
+      - name: Build mod
+        run: |
+          echo "Hello World"
