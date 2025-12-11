@@ -32,15 +32,12 @@ jobs:
           gh release create "${{ github.ref_name }}" \
             dist/${{ env.MOD_NAME }}.zip \
             --title "${{ github.ref_name }}" \
+            --latest \
             --notes "Automatically generated release for ${{ github.ref_name }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Upload to mod.io
-        if: 1 == 2 # Disabled for now
         run: |
-          curl -X POST "https://api.mod.io/v1/games/${{ secrets.MODIO_GAME_ID }}/mods/${{ secrets.MODIO_MOD_ID }}/files" \
-            -H "Authorization: Bearer ${{ secrets.MODIO_API_KEY }}" \
-            -F "file=@dist/${{ env.MOD_NAME }}.zip" \
-            -F "version=${{ github.ref_name }}" \
-            -F "changelog=Automated release for ${{ github.ref_name }}"
+          curl -X GET "https://g${{ secrets.MODIO_GAME_ID }}.modapi.io/v1/games/${{ secrets.MODIO_GAME_ID }}/mods/${{ secrets.MODIO_MOD_ID }}" \
+            -H "Authorization: Bearer ${{ secrets.MODIO_API_KEY }}"
