@@ -30,20 +30,25 @@ jobs:
       - name: Build mod
         run: |
           mkdir dist
-          mkdir dist/$MOD_NAME
-          cp -a "${{ github.workspace }}/src/." "dist/$MOD_NAME/"
+          mkdir dist/${{ env.MOD_NAME }}
+          cp -a "${{ github.workspace }}/src/." "dist/${{ env.MOD_NAME }}/"
 
-          cd dist && zip -r mod.zip $MOD_NAME/
+          cd dist && zip -r ${{ env.MOD_NAME }}.zip "${{ env.MOD_NAME }}/"
       
       - name: Create release
         run: |
           gh release create "TEST" \
-            dist/mod.zip \
+            dist/${{ env.MOD_NAME }}.zip \
             --title "Release ${{ github.ref_name }}" \
             --notes "Automated release for ${{ github.ref_name }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Upload to mod.io
+        if: 1 == 2 # Disabled for now
         run: |
-          echo "Uploading to mod.io"
+          curl -X POST "https://api.mod.io/v1/games/${{ secrets.MODIO_GAME_ID }}/mods/${{ secrets.MODIO_MOD_ID }}/files" \
+            -H "Authorization: Bearer ${{ secrets.MODIO_API_KEY }}" \
+            -F "file=@dist/${{ env.MOD_NAME }}.zip" \
+            -F "version=${{ github.ref_name }}" \
+            -F "changelog=Automated release for ${{ github.ref_name }}"
