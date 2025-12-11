@@ -21,7 +21,9 @@ jobs:
 
       - name: Build mod
         run: |
-          echo "Hello World"
+          mkdir dist
+          echo ${{ github.workspace }}
+          ls ${{ github.workspace }}
       
       - name: Create release
         run: |
