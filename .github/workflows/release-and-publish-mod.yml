@@ -39,5 +39,5 @@ jobs:
       
       - name: Upload to mod.io
         run: |
-          curl -X GET "https://g${{ secrets.MODIO_GAME_ID }}.modapi.io/v1/games/${{ secrets.MODIO_GAME_ID }}/mods/${{ secrets.MODIO_MOD_ID }}" \
+          curl -X GET "https://g-${{ secrets.MODIO_GAME_ID }}.modapi.io/v1/games/${{ secrets.MODIO_GAME_ID }}/mods/${{ secrets.MODIO_MOD_ID }}" \
             -H "Authorization: Bearer ${{ secrets.MODIO_API_KEY }}"
