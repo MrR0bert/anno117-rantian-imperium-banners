@@ -42,7 +42,7 @@ jobs:
         run: |
           curl -X POST "https://g-${{ secrets.MODIO_GAME_ID }}.modapi.io/v1/games/${{ secrets.MODIO_GAME_ID }}/mods/${{ secrets.MODIO_MOD_ID }}/files" \
             -H "Authorization: Bearer ${{ secrets.MODIO_API_KEY }}" \
-            -F "file=@dist/${{ env.MOD_NAME }}_${{ github.ref_name }}.zip" \
+            -F "filedata=@dist/${{ env.MOD_NAME }}_${{ github.ref_name }}.zip" \
             -F "version=${{ github.ref_name }}" \
             -F "changelog=Automated release for ${{ github.ref_name }}" \
             -F "active=false"
