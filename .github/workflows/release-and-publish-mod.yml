@@ -5,6 +5,8 @@ permissions:
 
 on:
   push:
+    branches:
+      - main
     tags:
       - 'v*'
 
@@ -27,7 +29,15 @@ jobs:
 
           cd dist && zip -r "${{ env.MOD_NAME }}_${{ github.ref_name }}.zip" "${{ env.MOD_NAME }}/"
       
+      - name: Extract changelog for this version
+        id: changelog
+        run: |
+          VERSION=v1.0.0
+          awk "/^## $VERSION/{flag=1;next}/^## /{flag=0}flag" CHANGELOG.md > tmp_changelog.txt
+          cat tmp_changelog.txt
+
       - name: Create release
+        if: 1 == 2
         run: |
           gh release create "${{ github.ref_name }}" \
             "dist/${{ env.MOD_NAME }}_${{ github.ref_name }}.zip" \
@@ -38,6 +48,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Upload to mod.io
+        if: 1 == 2
         run: |
           curl -X POST "https://g-${{ secrets.MODIO_GAME_ID }}.modapi.io/v1/games/${{ secrets.MODIO_GAME_ID }}/mods/${{ secrets.MODIO_MOD_ID }}/files" \
             -H "Authorization: Bearer ${{ secrets.MODIO_API_KEY }}" \
