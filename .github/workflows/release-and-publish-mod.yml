@@ -33,7 +33,7 @@ jobs:
             dist/${{ env.MOD_NAME }}.zip \
             --title "${{ github.ref_name }}" \
             --latest \
-            --notes "Automatically generated release for ${{ github.ref_name }}"
+            --notes "No Notes"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
@@ -43,5 +43,4 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.MODIO_API_KEY }}" \
             -F "filedata=@dist/${{ env.MOD_NAME }}_${{ github.ref_name }}.zip" \
             -F "version=${{ github.ref_name }}" \
-            -F "changelog=Automated release for ${{ github.ref_name }}" \
             -F "active=true"
