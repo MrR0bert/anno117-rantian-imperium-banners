@@ -1,0 +1,38 @@
+<ModOps>
+    <!-- Main construction container for the Celtic region -->
+    <ModOp Type="addNextSibling" GUID='96841'>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500032204</GUID>
+                    <Name>Rantian Imperium Ornaments Celtic Region Container</Name>
+                </Standard>
+                <ConstructionCategory>
+                    <CategoryIcon>1500032201</CategoryIcon>
+                    <BuildingList>
+                        <Item>
+                            <Building>1500032202</Building>
+                        </Item>
+                        <Item>
+                            <Building>1500032203</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <OasisId>1500032204</OasisId>
+                </Text>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add Main construction container to the Celtic menu -->
+    <ModOp Type="addNextSibling" GUID="96841" Path="/Values/ConstructionCategory/BuildingList/Item[Building='96842']">
+        <Item>
+            <Building>1500032204</Building>
+        </Item>
+    </ModOp>
+</ModOps>

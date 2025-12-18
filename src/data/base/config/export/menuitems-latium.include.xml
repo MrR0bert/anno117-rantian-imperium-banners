@@ -24,18 +24,20 @@
 					<Text>
 						<OasisId>1500032200</OasisId>
 					</Text>
-					<Locked/>
+					<Locked>
+                        <DefaultLockedState>0</DefaultLockedState>
+                    </Locked>
 				</Values>
 			</Asset>
 		</ModOp>
-
-		<!-- Add Main construction container to the menu -->
+		
+		<!-- Add Main construction container to the Latium menu -->
 		<ModOp Type="addNextSibling" GUID="14194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='80961']">
 			<Item>
 				<Building>1500032200</Building>
 			</Item>
 		</ModOp>
-
+		
 		<!-- Icon resource used for the construction container -->
 		<ModOp Type="addNextSibling" GUID="80939">
 			<Asset>
@@ -70,7 +72,9 @@
 					<Text>
 						<OasisId>1500032202</OasisId>
 					</Text>
-					<Locked/>
+					<Locked>
+                        <DefaultLockedState>0</DefaultLockedState>
+                    </Locked>
 				</Values>
 			</Asset>
 		</ModOp>
@@ -92,7 +96,9 @@
 					<Text>
 						<OasisId>1500032203</OasisId>
 					</Text>
-					<Locked/>
+					<Locked>
+                        <DefaultLockedState>0</DefaultLockedState>
+                    </Locked>
 				</Values>
 			</Asset>
 		</ModOp>

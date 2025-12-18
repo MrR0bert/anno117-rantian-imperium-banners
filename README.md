@@ -19,6 +19,7 @@ These GUIDs are used for non-banner assets (menu items, icons etc.)
 |GUID|Asset name|
 |---|---|
 |1500032200|Rantian Imperium Ornaments Container|
+|1500032204|Rantian Imperium Ornaments Celtic Region Container|
 |1500032201|Rantian Imperium Icon|
 |1500032202|Rantian Imperium Ornaments Category Standard|
 |1500032203|Clan na Ceo Gaire Category|
