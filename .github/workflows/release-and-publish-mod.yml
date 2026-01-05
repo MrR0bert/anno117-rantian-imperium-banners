@@ -46,7 +46,7 @@ jobs:
             "dist/${{ env.MOD_NAME }}_${{ github.ref_name }}.zip" \
             --title "${{ github.ref_name }}" \
             --latest \
-            --notes "No Notes"
+            --notes-file tmp_changelog.txt
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
