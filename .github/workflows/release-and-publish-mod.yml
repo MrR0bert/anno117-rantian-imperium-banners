@@ -41,6 +41,7 @@ jobs:
           cat tmp_changelog.txt
 
       - name: Create release
+        if: 1 == 2
         run: |
           gh release create "${{ github.ref_name }}" \
             "dist/${{ env.MOD_NAME }}_${{ github.ref_name }}.zip" \
@@ -51,10 +52,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Upload to mod.io
-        if: 1 == 2
         run: |
           curl -X POST "https://g-${{ secrets.MODIO_GAME_ID }}.modapi.io/v1/games/${{ secrets.MODIO_GAME_ID }}/mods/${{ secrets.MODIO_MOD_ID }}/files" \
             -H "Authorization: Bearer ${{ secrets.MODIO_API_KEY }}" \
             -F "filedata=@dist/${{ env.MOD_NAME }}_${{ github.ref_name }}.zip" \
             -F "version=${{ github.ref_name }}" \
-            -F "active=true"
+            -F "changelog=$(< tmp_changelog.txt)"
+            -F "active=false"
