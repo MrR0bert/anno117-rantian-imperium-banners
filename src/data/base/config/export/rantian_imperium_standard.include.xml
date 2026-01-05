@@ -18,6 +18,10 @@
                     <!-- Legion Banners -->
                     <Building>1500032226</Building>
                 </Item>
+                <Item>
+                    <!-- Pax Rantia Dice League Banner -->
+                    <Building>1500032230</Building>
+                </Item>
         </ModOp>
     </Group>
 
@@ -184,6 +188,34 @@
                     </Object>
                     <Ornament>
                         <OrnamentDescription>1500032227</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- Pax Rantia Dice League Banner -->
+        <ModOp Type="addNextSibling" GUID="1500032220">
+            <Asset>
+                <BaseAssetGUID>1500032220</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500032230</GUID>
+                        <Name>pax_rantia_dice_league_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icon_content/icon_banner_pax_rantia_dice_league_0.dds</IconFilename>
+                        <InfoDescription>1500032231</InfoDescription>
+                    </Standard>
+                    <Text>
+                        <OasisId>1500032230</OasisId>
+                    </Text>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/rantian_imperium_banners/pax_rantia_dice_league_01.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500032231</OrnamentDescription>
                     </Ornament>
                 </Values>
             </Asset>
