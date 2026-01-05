@@ -35,3 +35,4 @@ Starting at **1500032220**, to allow for expansion of the menu items without mix
 |1500032224|Banner Large|Rantian Imperium Banners|Christmas Banner|1|
 |1500032226|Banner Large|Rantian Imperium Banners|Rantian Legion Banners|4|
 |1500032228|Banner Large|Clan na Ceo Gaire|Clan na Ceo Gaire|1|
+|1500032230|Banner Large|Rantian Imperium Banners|Pax Rantia Dice League|1|
