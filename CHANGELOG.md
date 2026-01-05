@@ -9,10 +9,6 @@ All notable changes to this project will be documented in this file.
 - Setup GitHub Actions with the repository
 - Added support for the Celtic region (Albion). Fixes #1
 
-### Changed
-
-### Removed
-
 ## [1.0.0] - 2025-12-11
 
 ### Added
