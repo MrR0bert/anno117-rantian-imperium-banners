@@ -57,5 +57,5 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.MODIO_API_KEY }}" \
             -F "filedata=@dist/${{ env.MOD_NAME }}_${{ github.ref_name }}.zip" \
             -F "version=${{ github.ref_name }}" \
-            -F "changelog=$(< tmp_changelog.txt)"
+            -F "changelog=$(< tmp_changelog.txt)" \
             -F "active=false"
