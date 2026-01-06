@@ -20,6 +20,7 @@
       <LineId>1500032204</LineId>
       <Text>Rantian Imperium Ornaments</Text>
     </Text>
+
     <Text>
       <LineId>1500032220</LineId>
       <Text>Rantian Imperium Original Banner</Text>
@@ -28,6 +29,7 @@
       <LineId>1500032221</LineId>
       <Text>The original Rantian Imperium Banner in red and gold!</Text>
     </Text>
+
     <Text>
       <LineId>1500032222</LineId>
       <Text>Eugene Banner</Text>
@@ -36,6 +38,7 @@
       <LineId>1500032223</LineId>
       <Text>Eugene, the patron of the Rantian Imperium. Rescued from the hands of Alonzo and Margaret Hunt now the sacred chicken of the imperium.</Text>
     </Text>
+
     <Text>
       <LineId>1500032224</LineId>
       <Text>Rantian Christmas Banner</Text>
@@ -44,6 +47,7 @@
       <LineId>1500032225</LineId>
       <Text>Ho Ho Ho! Celebrate Christmas with the Rantian Imperium!</Text>
     </Text>
+
     <Text>
       <LineId>1500032226</LineId>
       <Text>Rantian Standard Legion Banners</Text>
@@ -52,6 +56,7 @@
       <LineId>1500032227</LineId>
       <Text>A collection of three Rantian Legion banners.</Text>
     </Text>
+
     <Text>
       <LineId>1500032228</LineId>
       <Text>Clan na Ceo Gaire</Text>
@@ -60,6 +65,7 @@
       <LineId>1500032229</LineId>
       <Text>Clan na Ceo Gaire's official banner.</Text>
     </Text>
+
     <Text>
       <LineId>1500032230</LineId>
       <Text>Pax Rantia Dice League</Text>
@@ -67,6 +73,60 @@
     <Text>
       <LineId>1500032231</LineId>
       <Text>Take a gamble at the Rantian Imperium casino!</Text>
+    </Text>
+    
+    <Text>
+      <LineId>1500032232</LineId>
+      <Text>Clann Innealtóir Cloiche</Text>
+    </Text>
+    <Text>
+      <LineId>1500032233</LineId>
+      <Text>A clan known for their fortified hilltops and strong warriors, skilled in both battle and diplomacy. A clan renowned for their craftsmanship and strong warriors, skilled in both battle and the creation of intricate metalwork.</Text>
+    </Text>
+
+    <Text>
+      <LineId>1500032234</LineId>
+      <Text>Clann Tuath Glasraige</Text>
+    </Text>
+    <Text>
+      <LineId>1500032235</LineId>
+      <Text>Renowned for their lush lands and agriculture, experts in herbal medicine and community farming.</Text>
+    </Text>
+
+    <Text>
+      <LineId>1500032236</LineId>
+      <Text>Clann Sídhe Éaladh</Text>
+    </Text>
+    <Text>
+      <LineId>1500032237</LineId>
+      <Text>A clan deeply connected to ancient traditions, known for their mystical lore and prowess in the arts.</Text>
+    </Text>
+
+    <Text>
+      <LineId>1500032238</LineId>
+      <Text>Clann Féne ÉTairne</Text>
+    </Text>
+    <Text>
+      <LineId>1500032239</LineId>
+      <Text>Warriors famed for their agility and fierce combat style, often acting as scouts and defenders of the realm.</Text>
+    </Text>
+
+    <Text>
+      <LineId>1500032240</LineId>
+      <Text>Clann Aisling</Text>
+    </Text>
+    <Text>
+      <LineId>1500032241</LineId>
+      <Text>A clan known for their lush forests and masterful hunting skills. They excel at leather working and are masters of the marsh lands as well as the forests.</Text>
+    </Text>
+
+    <Text>
+      <LineId>1500032242</LineId>
+      <Text>Clann Éire Tráith</Text>
+    </Text>
+    <Text>
+      <LineId>1500032243</LineId>
+      <Text>Known for their maritime skills, adept at navigating rivers and coastlines, facilitating trade and military movements.</Text>
     </Text>
   </ModOp>
 </ModOps>
