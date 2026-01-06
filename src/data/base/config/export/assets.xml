@@ -1,9 +1,9 @@
 <ModOps>
   <!-- Include the Latium Menu Items -->
-  <Include File="menuitems-latium.include.xml" />
+  <Include File="menus\latium.include.xml" />
 
   <!-- Include the Celtic (Albion) Menu Items -->
-  <Include File="menuitems-celtic.include.xml" />
+  <Include File="menus\celtic.include.xml" />
 
   <!-- Include the Rantian Imperium Standard banners -->
   <Include File="rantian_imperium_standard.include.xml" />
