@@ -9,5 +9,5 @@
   <Include File="rantian_imperium_standard.include.xml" />
 
   <!-- Include the Clan Na Ceo Gair banners -->
-  <Include File="clan_na_ceo_gaire.include.xml" />
+  <Include File="united_celtic_clans.include.xml" />
 </ModOps>

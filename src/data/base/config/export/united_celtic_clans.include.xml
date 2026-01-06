@@ -3,22 +3,22 @@
     <Group>
         <ModOp Type="merge" GUID="1500032203" Path="/Values/ConstructionCategory/BuildingList">
                 <Item>
-                    <!-- Eugene Banner -->
+                    <!-- Clan na Ceo Gaire Standard -->
                     <Building>1500032228</Building>
                 </Item>
         </ModOp>
     </Group>
 
-    <!-- Clan Na Ceo Gaire Large Banners -->
+    <!-- United Celtic Clans Large Banners -->
     <Group>
-      <!-- Legion Banners -->
+        <!-- Clan na Ceo Gaire Standard Banner -->
         <ModOp Type="addNextSibling" GUID="1500032220">
             <Asset>
                 <BaseAssetGUID>1500032220</BaseAssetGUID>
                 <Values>
                     <Standard>
                         <GUID>1500032228</GUID>
-                        <Name>Rantain Legion banners</Name>
+                        <Name>Clan na Ceo Gaire Standard Banner</Name>
                         <IconFilename>data/mrr0b3rt/ui/icon_content/icon_banner_clan_na_ceo_gaire_standard_0.dds</IconFilename>
                         <InfoDescription>1500032229</InfoDescription>
                     </Standard>
@@ -28,7 +28,7 @@
                     <Object>
                         <Variations>
                             <Item>
-                                <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/clann_na_ceo_gaire_banners/clann_na_ceo_gaire_main_01.cfg</Filename>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/united_celtic_clans_banners/clann_na_ceo_gaire_main_01.cfg</Filename>
                             </Item>
                         </Variations>
                     </Object>
