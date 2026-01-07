@@ -6,17 +6,18 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- New banner "Pax Rantia Dice League" in the Rantian Imperium Standard set
-- New Banner "Clann Innealtóir Cloiche" in the United Celtic Clans set
-- New Banner "Clann Tuath Glasraige" in the United Celtic Clans set
-- New Banner "Clann Sídhe Éaladh" in the United Celtic Clans set
-- New Banner "Clann Féne ÉTairne" in the United Celtic Clans set
-- New Banner "Clann Aisling" in the United Celtic Clans set
-- New Banner "Clann Éire Tráith" in the United Celtic Clans set
+- New banner "**Pax Rantia Dice League**" in the Rantian Imperium Standard set
+- New Banner "**Clann Innealtóir Cloiche**" in the United Celtic Clans set
+- New Banner "**Clann Tuath Glasraige**" in the United Celtic Clans set
+- New Banner "**Clann Sídhe Éaladh**" in the United Celtic Clans set
+- New Banner "**Clann Féne ÉTairne**" in the United Celtic Clans set
+- New Banner "**Clann Aisling**" in the United Celtic Clans set
+- New Banner "**Clann Éire Tráith**" in the United Celtic Clans set
 
 ### Modified
 
-- Renamed the set "Clan Na Ceo Gaire" to "United Celtic Clans"
+- Renamed the set "**Clan Na Ceo Gaire**" to "**United Celtic Clans**"
+- Updated the design for the Clan Na Ceo Gaire banner
 
 ## [1.0.1]
 

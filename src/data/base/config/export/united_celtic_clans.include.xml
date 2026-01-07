@@ -35,15 +35,15 @@
 
     <!-- United Celtic Clans Large Banners -->
     <Group>
-        <!-- Clan na Ceo Gaire Standard Banner -->
+        <!-- Clan na Ceo Gaire Banner -->
         <ModOp Type="addNextSibling" GUID="1500032220">
             <Asset>
                 <BaseAssetGUID>1500032220</BaseAssetGUID>
                 <Values>
                     <Standard>
                         <GUID>1500032228</GUID>
-                        <Name>Clan na Ceo Gaire Standard Banner</Name>
-                        <IconFilename>data/mrr0b3rt/ui/icon_content/icon_banner_clan_na_ceo_gaire_standard_0.dds</IconFilename>
+                        <Name>Clan na Ceo Gaire Standard</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icon_content/icon_banner_clan_na_ceo_gaire_0.dds</IconFilename>
                         <InfoDescription>1500032229</InfoDescription>
                     </Standard>
                     <Text>
@@ -52,7 +52,7 @@
                     <Object>
                         <Variations>
                             <Item>
-                                <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/united_celtic_clans_banners/clann_na_ceo_gaire_main_01.cfg</Filename>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornaments/banners_large/united_celtic_clans_banners/clann_na_ceo_gaire_01.cfg</Filename>
                             </Item>
                         </Variations>
                     </Object>
