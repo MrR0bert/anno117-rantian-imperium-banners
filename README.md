@@ -22,7 +22,7 @@ These GUIDs are used for non-banner assets (menu items, icons etc.)
 |1500032204|Rantian Imperium Ornaments Celtic Region Container|
 |1500032201|Rantian Imperium Icon|
 |1500032202|Rantian Imperium Ornaments Category Standard|
-|1500032203|Clan na Ceo Gaire Category|
+|1500032203|United Celtic Clans Category|
 
 ### Banner GUIDs
 
@@ -34,5 +34,11 @@ Starting at **1500032220**, to allow for expansion of the menu items without mix
 |1500032222|Banner Large|Rantian Imperium Banners|Eugene|1|
 |1500032224|Banner Large|Rantian Imperium Banners|Christmas Banner|1|
 |1500032226|Banner Large|Rantian Imperium Banners|Rantian Legion Banners|4|
-|1500032228|Banner Large|Clan na Ceo Gaire|Clan na Ceo Gaire|1|
+|1500032228|Banner Large|United Celtic Clans|Clan na Ceo Gaire|1|
 |1500032230|Banner Large|Rantian Imperium Banners|Pax Rantia Dice League|1|
+|1500032232|Banner Large|United Celtic Clans|Clann Innealtóir Cloiche|1|
+|1500032234|Banner Large|United Celtic Clans|Clann Tuath Glasraige|1|
+|1500032236|Banner Large|United Celtic Clans|Clann Sídhe Éaladh|1|
+|1500032238|Banner Large|United Celtic Clans|Clann Féne ÉTairne|1|
+|1500032240|Banner Large|United Celtic Clans|Clann Aisling|1|
+|1500032242|Banner Large|United Celtic Clans|Clann Éire Tráith|1|

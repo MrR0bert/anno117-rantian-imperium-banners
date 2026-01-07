@@ -79,15 +79,15 @@
 			</Asset>
 		</ModOp>
 
-		<!-- Container: Clan na Ceo Gaire -->
+		<!-- Container: United Celtic Clans -->
 		<ModOp Type="addNextSibling" GUID="80582">
 			<Asset>
 				<Template>ConstructionCategory</Template>
 				<Values>
 					<Standard>
 						<GUID>1500032203</GUID>
-						<Name>Clan-Na-Ceo-Gaire-Category</Name>
-						<IconFilename>data/mrr0b3rt/ui/icon_collection_clan_na_ceo_gaire.dds</IconFilename>
+						<Name>United-Celtic-Clans-Category</Name>
+						<IconFilename>data/mrr0b3rt/ui/icon_collection_united_celtic_clans.dds</IconFilename>
 					</Standard>
 					<ConstructionCategory>
 						<BuildingList />
