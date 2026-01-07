@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [1.0.2]
 
 ### Added
 
@@ -32,6 +32,7 @@ All notable changes to this project will be documented in this file.
 
 - 8 initial banners
 
-[unreleased]: https://github.com/MrR0bert/anno117-rantian-imperium-banners/compare/v1.0.1...HEAD
+[unreleased]: https://github.com/MrR0bert/anno117-rantian-imperium-banners/compare/v1.0.2...HEAD
+[1.0.1]: https://github.com/MrR0bert/anno117-rantian-imperium-banners/releases/tag/v1.0.2
 [1.0.1]: https://github.com/MrR0bert/anno117-rantian-imperium-banners/releases/tag/v1.0.1
 [1.0.0]: https://github.com/MrR0bert/anno117-rantian-imperium-banners/releases/tag/v1.0.0
