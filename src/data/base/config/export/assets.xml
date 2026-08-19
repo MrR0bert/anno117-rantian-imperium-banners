@@ -6,8 +6,8 @@
   <Include File="menuitems-celtic.include.xml" />
 
   <!-- Include the Rantian Imperium Standard banners -->
-  <Include File="rantian_imperium_standard.include.xml" />
+  <Include File="banners/rantian_imperium_standard.include.xml" />
 
   <!-- Include the Clan Na Ceo Gair banners -->
-  <Include File="united_celtic_clans.include.xml" />
+  <Include File="banners/united_celtic_clans.include.xml" />
 </ModOps>
